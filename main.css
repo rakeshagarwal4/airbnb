@@ -1,0 +1,228 @@
+body {
+	margin: 0;
+}
+
+#header {
+	position: relative;
+	width: 100%;
+	height: 600px;
+	background-color: red;
+	background-image: url('bg1.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+#nav {
+	position: absolute;
+	width: 100%;
+	height: 60px;
+	background-color: white
+}
+
+#logo {
+	margin-left: 10px;
+}
+
+#host_link {
+	display: inline;
+	text-decoration: none;
+	color: black;
+	font-family: sans-serif;
+	float: right;
+	margin: 15px;
+	border: 2px solid lightgray;
+	padding: 8px;
+	border-radius: 2px;
+}
+#host_link:visited {
+	text-decoration: none;
+	color: black;
+	font-family: sans-serif;
+}
+
+#host_link:hover {
+	background-color: rgba(0,0,0,0.1);
+}
+
+.nav_links {
+	display: inline;
+	font-family: sans-serif;
+	color: black;
+	text-decoration: none;
+	float: right;
+	margin: 12px;
+	margin-top: 15px;
+	padding: 8px;
+}
+
+#welcome_text_div {
+	position: absolute;
+	width: 800px;
+	height: 300px;
+	top: 50%;
+	margin-top: -150px;
+	left: 50%;
+	margin-left: -400px;
+}
+
+#welcome_text {
+	color: white;
+	font-family: sans-serif;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 57px;
+	text-align: center; 
+}
+
+#welcome_under_text {
+	color: white;
+	font-family: sans-serif;
+	font-weight: bold;
+	text-align: center;
+	margin-top: -50px;
+}
+
+#play_video {
+	width: 85px;
+	height: 85px;
+	background-image: url('play.png');
+	opacity: 0.7;
+	border-radius: 43px;
+	cursor: pointer;
+	left: 44%;
+	margin: 00px;
+	position: absolute;
+}
+
+#play_video:hover {
+	width: 85px;
+	height: 85px;
+	background-image: url('play.png');
+	opacity: 1;
+	border-radius: 43px;
+	cursor: pointer;
+	left: 44%;
+	margin: 00px;
+	position: absolute;
+}
+
+#searchbar_div {
+	position: absolute;
+	width: 100%;
+	height: 100px;
+	background-color: rgba(0,0,0,0.7);
+	bottom: 0;
+}
+
+#searchbar {
+	position: absolute;
+	width: 1030px;
+	height: 42px;
+	background-color: white;
+	top: 50%;
+	margin-top: -22.5px;
+	left: 50%;
+	margin-left: -515px;
+	border-radius: 3px;
+}
+
+#where_div {
+	position: absolute;
+	width: 360px;
+	height: 42px;
+	border-right: 1px solid lightgray;
+}
+
+#whereto {
+	color: grey;
+	font-family: sans-serif;
+	margin-left: 10px;
+	margin-top: 13px;
+}
+
+#check_in_out_div {
+	position: absolute;
+	width: 371px;
+	height: 42px;
+	left: 360px;
+	border-right: 1px solid lightgray;
+}
+
+#check_in {
+	position: absolute;
+	color: grey;
+	font-family: sans-serif;
+	float: left;
+	margin-left: 2px;
+	margin-top: 7px;
+	padding-left: 8px;
+	padding-top: 6px;
+	padding-bottom: 5px;
+	width: 100px;
+}
+
+#check_in:hover {
+	background-color: rgba(60,255,255,0.8);
+	border-radius: 2px;
+}
+
+#arrowright {
+	position: absolute;
+	margin-top: 13px;
+	margin-left: 111px;
+}
+
+#check_out {
+	position: absolute;
+	color: grey;
+	font-family: sans-serif;
+	float: left;
+	margin-left: 138px;
+	margin-top: 7px;
+	padding-left: 8px;
+	padding-top: 6px;
+	padding-bottom: 5px;
+	width: 100px;
+}
+
+#check_out:hover {
+	background-color: rgba(60,255,255,0.8);
+	border-radius: 2px;
+}
+
+#guest_div {
+	position: absolute;
+	width: 135px;
+	border-right: 1px solid lightgray;
+	left: 732px;
+	height: 42px;
+}
+
+#guest_text {
+	font-family: sans-serif;
+	margin-left: 10px;
+	color: black;
+}
+
+#searchbutton_div {
+	position: absolute;
+	background-color: rgba(248,48,26,0.8);
+	left: 867px;
+	height: 42px;
+	width: 163px;
+	border-top-right-radius: 3px;
+	border-bottom-right-radius: 3px;
+}
+
+#searchbutton {
+	position: absolute;
+	text-decoration: none;
+	color: white;
+	padding-left: 55px;
+	padding-top: 13px;
+	font-family: sans-serif;
+}
+
+#searchbutton_div:hover {
+	background-color: rgba(248,48,26,0.6);
+}
